@@ -1,0 +1,24 @@
+{
+  "name": "aprogrammer/admintemplatelaravel",
+  "description": "Admin template applied to Laravel Scaffolding",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Phillip Madsen",
+      "email": "contact@affordableprogrammer.com",
+      "homepage": "http://affordableprogrammer.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {"Aprogrammer\\AdminTemplateLaravel\\": "src/"}
+  }
+} 
